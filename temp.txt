@@ -1,0 +1,4 @@
+    this.listItem.id = "1";
+    this.listItem.location = "Mahe, Seychelles";
+    this.listItem.title = "Bungallo Heaven";
+    this.listItem.description = "A 100m da praia. Próximo a supermercado. Fácil acesso ao aeroporto via táxi."

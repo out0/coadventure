@@ -1,0 +1,105 @@
+.top-label {
+  margin-bottom: 24px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.family-label {
+  margin-top: 24px;
+  margin-bottom: 64px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.family-label>h4 {
+  color: #979797;
+}
+
+.btn-transparent {
+  cursor: pointer;
+  border-radius: 24px;
+  width: 36px;
+  height: 36px;
+  border: 1px solid #494848;
+  background-color: white;
+  color: #1623d4;
+  font-size: 1.5em;
+}
+
+.username-input  {
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+}
+
+.divider {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.number_set {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-auto-rows: auto;
+  align-items: start;
+  grid-template-areas:
+    "b b b b b c d e";
+
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 24px;
+  margin-bottom: 24px;
+
+}
+
+.number_set-item1 {
+  grid-area: b;
+  font-size: 16px;
+  align-self: center;
+  justify-self: start;
+  padding-left: 1em;
+  padding-right: 2em;
+}
+.number_set-item2 {
+  grid-area: c;
+  align-self: center;
+  justify-self: start;
+}
+.number_set-item3 {
+  grid-area: d;
+  font-size: 24px;
+  align-self: center;
+  justify-self: center;
+}
+.number_set-item4 {
+  grid-area: e;
+  align-self: center;
+  justify-self: end;
+}
+
+
+
+.example-ripple-container {
+  cursor: pointer;
+  text-align: center;
+
+  width: 300px;
+  height: 300px;
+  line-height: 300px;
+
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+
+  -webkit-user-drag: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/** Styles to make the demo look better. */
+.example-ripple-checkbox {
+  margin: 6px 12px 6px 0;
+}
+
+.example-ripple-form-field {
+  margin: 0 12px 0 0;
+}

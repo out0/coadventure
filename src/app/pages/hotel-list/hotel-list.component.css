@@ -1,0 +1,10 @@
+.hotel-list-row {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin-top: 16px;
+}
+
+.hotel-list-row-item {
+  width: 300px;
+}

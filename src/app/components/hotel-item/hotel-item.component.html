@@ -1,0 +1,41 @@
+<!--
+<img [src]="hotelListImage" alt="{{listItem.title}}"
+  *ngIf="!isImageLoading; else noImageFound">
+
+  <ng-template #noImageFound>
+  <img src="fallbackImage.png" alt="Fallbackimage">
+
+</ng-template>
+
+<img src="../../../assets/hotel-4.jpg" width="140px" height="140px">
+
+-->
+<div class="list-item">
+  <div class="list-item-body">
+    <div class="list-item-img">
+      <img [src]="hotelListImage" alt="{{listItem.title}}" width="140px" height="140px"
+        *ngIf="!isImageLoading; else noImageFound">
+
+      <ng-template #noImageFound>
+        <img src="../../../assets/fallback.png" alt="Fallbackimage">
+      </ng-template>
+
+    </div>
+    <div class="list-item-info">
+      <h2 class="list-item-title">{{listItem.title}}</h2>
+      <div class="list-item-location">
+        <div>
+          <mat-icon aria-hidden="false" aria-label="Localização">location_on</mat-icon>
+        </div>
+        <div>
+          <h4>{{listItem.location}}</h4>
+        </div>
+      </div>
+      <h4 class="list-item-description">{{listItem.description}}</h4>
+    </div>
+    <div class="list-item-open-details-icon">
+      <mat-icon aria-hidden="false" aria-label="Localização">navigate_next</mat-icon>
+    </div>
+  </div>
+</div>
+

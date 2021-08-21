@@ -1,0 +1,35 @@
+.list-item {
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+  gap: 1em;
+}
+
+.list-item-body {
+  display: flex;
+  flex-direction: row;
+  margin: 1em;
+  gap: 1em;
+}
+
+.list-item-img {
+  justify-self: start;
+  align-self: center;
+}
+
+.list-item-info {
+  justify-self: start;
+  align-self: center;
+}
+
+.list-item-location {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.list-item-open-details-icon {
+  justify-self: center;
+  align-self: center;
+
+}

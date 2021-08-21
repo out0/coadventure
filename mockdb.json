@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Estudar Angular",
+      "day": "Wed, 18th Aug 11:20",
+      "reminder": true
+    },
+    {
+      "id": 2,
+      "text": "Implementar interface do app",
+      "day": "Thu, 19th Aug 13:20",
+      "reminder": false
+    },
+    {
+      "id": 3,
+      "text": "Criar BD de imagens",
+      "day": "Fri, 20th Aug 13:20",
+      "reminder": true
+    }
+  ]
+}
